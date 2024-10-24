@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Bienvenido a la App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div *ngIf="!isAuthenticated">
+    <ion-button expand="full" (click)="goToLogin()">Iniciar Sesión</ion-button>
+    <ion-button expand="full" (click)="goToRegister()">Registrarse</ion-button>
+  </div>
+
+  <div *ngIf="isAuthenticated">
+    <ion-button expand="full" (click)="logout()">Cerrar Sesión</ion-button>
+  </div>
+</ion-content>

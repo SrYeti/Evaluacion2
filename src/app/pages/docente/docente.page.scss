@@ -1,0 +1,97 @@
+/* General Styles for all pages */
+ion-header {
+  --background: #3880ff; /* Color del encabezado */
+  color: #fff;
+}
+
+ion-toolbar {
+  --background: #3880ff; /* Fondo del toolbar */
+}
+
+ion-title {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+ion-content {
+  --background: #a7abae; /* Fondo gris claro */
+  padding: 16px;
+}
+
+ion-grid {
+  justify-content: center;
+}
+
+ion-card {
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ion-card-header {
+  background-color: #3880ff;
+  color: white;
+  text-align: center;
+}
+
+ion-button {
+  --background: #3880ff;
+  color: white;
+  margin: 12px 0;
+}
+
+ion-input {
+  --background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+ion-item {
+  margin-bottom: 12px;
+}
+
+ion-select {
+  margin-bottom: 12px;
+}
+
+ion-text {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+ion-footer {
+  padding: 12px;
+  text-align: center;
+}
+
+ion-footer ion-button {
+  margin: 8px;
+}
+
+/* Styles for login and register pages */
+ion-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+ion-button[expand="full"] {
+  width: 100%;
+}
+
+/* Styles for error messages */
+ion-text[color="danger"] {
+  font-size: 0.85rem;
+  color: #f44336;
+  margin-top: 5px;
+  text-align: center;
+}
+ion-input {
+  --background: #fff; /* Fondo blanco */
+  --color: #000; /* Texto en negro */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+ion-item ion-label {
+  --color: #000; /* Asegurar que las etiquetas también tengan color negro */
+}
